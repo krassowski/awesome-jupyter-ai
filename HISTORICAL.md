@@ -26,6 +26,7 @@ No commit for over two years. These were written against the first generation of
 - [jupyterlab-starchat-extension](https://github.com/aolney/jupyterlab-starchat-extension) - Interface to the StarChat open model, from the brief window when that was the open alternative.
 - [jupylot](https://github.com/vrvrv/jupylot) - Error checking assistant.
 - [Notebook Copilot](https://github.com/talperetz/notebook-copilot) - `%copilot` magic that writes a whole notebook, code and markdown, from a description of the goal. Reads the cells already there for context. Last worked on in 2023.
+- [chatlab](https://github.com/rgbkrk/chatlab) - Library for trying out tool calling in a notebook, with the model able to call functions you defined in the cell above.
 
 <table>
 <tr>
