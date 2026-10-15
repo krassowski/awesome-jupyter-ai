@@ -15,7 +15,7 @@ No commit for over two years. These were written against the first generation of
 
 - [Chapyter](https://github.com/chapyter/chapyter) - The best known of the 2023 generation: a `%%chat` magic that writes the code and runs it, with history and an undo. Worth reading for the design.
 - [Lightrail](https://github.com/lightrail-ai/lightrail) - Cross-application AI command bar with a JupyterLab connector.
-- [JupyterLab Codex (lhr0909)](https://github.com/lhr0909/jupyterlab-codex) - The first of them: a 2021 extension against the original Codex private beta, still the most starred entry in this section.
+- [JupyterLab Codex (lhr0909)](https://github.com/lhr0909/jupyterlab-codex) - The first of them: a 2021 extension against the original Codex private beta.
 - [gpt-jupyterlab](https://github.com/henshinger/gpt-jupyterlab) - Text and code completion on cells through the OpenAI API.
 - [jupyter_plz](https://github.com/Akramz/jupyter_plz) - `%plz` a request and get the code.
 - [jupyterlab-transformers-completer](https://github.com/krassowski/jupyterlab-transformers-completer) - Inline completion from transformers.js, running in the browser with no server. [Try it on Binder](https://mybinder.org/v2/gh/krassowski/jupyterlab-transformers-completer/main?urlpath=lab).
@@ -27,11 +27,13 @@ No commit for over two years. These were written against the first generation of
 - [jupylot](https://github.com/vrvrv/jupylot) - Error checking assistant.
 - [Notebook Copilot](https://github.com/talperetz/notebook-copilot) - `%copilot` magic that writes a whole notebook, code and markdown, from a description of the goal. Reads the cells already there for context. Last worked on in 2023.
 - [chatlab](https://github.com/rgbkrk/chatlab) - Library for trying out tool calling in a notebook, with the model able to call functions you defined in the cell above.
+- [CoML](https://github.com/microsoft/CoML) - Microsoft Research assistant with three modes, including one that suggests what to try next on a machine learning task. The readme has demo GIFs.
 
 <table>
 <tr>
-<td width="50%"><a href="https://github.com/aleksanderhan/labpilot"><img src="https://raw.githubusercontent.com/aleksanderhan/labpilot/main/docs/refactor.gif" alt="refactoring a cell, 2023"></a><br><sub><b>LabPilot</b>: refactoring a cell, 2023</sub></td>
-<td width="50%"><a href="https://github.com/biff-ai/gpt-magic"><img src="https://raw.githubusercontent.com/biff-ai/gpt-magic/main/GPTMagic.gif" alt="a GPT magic command, 2023"></a><br><sub><b>gpt-magic</b>: a GPT magic command, 2023</sub></td>
+<td width="33%"><a href="https://github.com/aleksanderhan/labpilot"><img src="https://raw.githubusercontent.com/aleksanderhan/labpilot/main/docs/refactor.gif" alt="refactoring a cell, 2023"></a><br><sub><b>LabPilot</b>: refactoring a cell, 2023</sub></td>
+<td width="33%"><a href="https://github.com/biff-ai/gpt-magic"><img src="https://raw.githubusercontent.com/biff-ai/gpt-magic/main/GPTMagic.gif" alt="a GPT magic command, 2023"></a><br><sub><b>gpt-magic</b>: a GPT magic command, 2023</sub></td>
+<td width="33%"><a href="https://github.com/microsoft/CoML"><img src="https://raw.githubusercontent.com/microsoft/CoML/main/assets/demo_coml.gif" alt="a magic that fills in the next step, 2023"></a><br><sub><b>CoML</b>: a magic that fills in the next step, 2023</sub></td>
 </tr>
 </table>
 
@@ -45,3 +47,5 @@ The repository is read-only, or the model service behind it has been switched of
 - [jupyter-voicepilot](https://github.com/JovanVeljanoski/jupyter-voicepilot) - Whisper plus GPT-3, so you could talk to the notebook in 2023. Archived.
 - [jupyai](https://github.com/ploomber/jupyai) - Ploomber's experiment in adding AI to JupyterLab. Archived.
 - [jupyterlab-codeium](https://github.com/jtpio/jupyterlab-codeium) - Codeium through the inline completion API. Archived after Codeium became Windsurf.
+- [codeium.jupyter](https://github.com/Exafunction/codeium.jupyter) - Codeium's own JupyterLab client. It had no commit after Codeium became Windsurf, and the repository is now archived.
+- [Sage Agent](https://pypi.org/project/sage-agent-internal/) - Notebook assistant. Its default model proxy no longer answers, and the vendor now publishes it as SignalPilot under a proprietary licence. BSD-3-Clause, no public repository.

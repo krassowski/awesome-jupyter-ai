@@ -63,7 +63,7 @@ Resolve a relative path in someone's readme against their default branch.
 
 The Jupyter logo mark is for a project maintained by Project Jupyter, in one of its official GitHub organisations. In the readme that is `jupyterlab` and `jupyterlite`, but `jupyter`, `jupyterhub`, `jupyter-book` and the other official organisations count the same way. The [list of subprojects](https://jupyter.org/governance/list_of_subprojects.html) settles it. Do not give the mark to anything else, however official it looks.
 
-The planet is for [jupyter-ai-contrib](https://github.com/jupyter-ai-contrib), a community organisation that is not under Project Jupyter governance. Every code repository in that organisation is listed somewhere in the readme. There were 28 on 2026-09-22, plus `.github` and `team-compass`, and those two are not packages.
+The planet is for [jupyter-ai-contrib](https://github.com/jupyter-ai-contrib), a community organisation that is not under Project Jupyter governance. Every AI package in that organisation is listed somewhere in the readme. On 2026-10-15 it had 30 repositories, and four are left out: `ipykernel-uv`, a kernel that does not call a model, `jupyter-ai-devrepo`, a developer checkout of the other packages, and `.github` and `team-compass`, which are not packages.
 
 The second marker is an emoji because the two logo variants in `jupyter/design` are indistinguishable at 14 pixels, and the monochrome one disappears on GitHub's dark theme.
 

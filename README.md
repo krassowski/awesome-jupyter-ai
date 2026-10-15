@@ -1,6 +1,6 @@
 # Awesome Jupyter AI [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
-> AI extensions for JupyterLab and Jupyter Notebook 7 | [Blog post](https://openteams.com/awesome-jupyter-ai-extensions/)
+> AI extensions for JupyterLab and Jupyter Notebook 7 | [Blog post](https://openteams.com/engineering-blog/awesome-jupyter-ai-extensions/)
 
 We are excited to see the Jupyter extension ecosystem thrive in the era of AI. The variety of ideas and implementations demonstrates the utility of the extension platform and the API stability offered by JupyterLab. This list collects over a hundred AI extensions for JupyterLab and Jupyter Notebook 7. They range from chat panels and inline completers to teaching tools and the building blocks of Jupyter AI. Each one installs into a JupyterLab or Notebook 7 you already run.
 
@@ -62,19 +62,19 @@ Generally these include a panel you type into and, can read and edit your notebo
 - [<img src="https://raw.githubusercontent.com/jupyter/design/main/logos/Favicon/favicon.svg" height="14" alt="Project Jupyter"> Jupyter AI](https://github.com/jupyterlab/jupyter-ai) 🟢 - The official extension from the JupyterLab team. Version 3 connects Claude, Codex, GitHub Copilot, Gemini, Goose, Kiro, Mistral Vibe and OpenCode through the [Agent Client Protocol](https://agentclientprotocol.com). It asks permission before writing files or running commands, and several people can share one chat.
 - [<img src="https://raw.githubusercontent.com/jupyter/design/main/logos/Favicon/favicon.svg" height="14" alt="Project Jupyter"> JupyterLite AI](https://github.com/jupyterlite/ai) 🟢 - Completion and chat for JupyterLab, Notebook 7 and JupyterLite. It runs in the browser, so it works on a static site with no server. [Try it in the browser](https://jupyterlite.github.io/ai/lab/index.html).
 - [Notebook Intelligence](https://github.com/plmbr/notebook-intelligence) 🟢 - Chat, inline edit, autocomplete, an agent that operates the notebook, and Chatbook, a kernel where a cell can be an English prompt that generates code and runs it in a kernel you choose. Models come from GitHub Copilot, any OpenAI or LiteLLM compatible endpoint, local Ollama models, or the Claude Code CLI. GPL-3.0, so check your distribution rules before bundling it.
-- [Mito AI](https://github.com/mito-ds/mito) 🟢 - Context aware chat, error debugging and an agent, installed together with the Mito spreadsheet. It is the most starred entry after Jupyter AI. The licence is mixed, so read `LICENSE` before deploying it.
+- [Mito AI](https://github.com/mito-ds/mito) 🟡 - Context aware chat, error debugging and an agent, installed together with the Mito spreadsheet. It is the most starred entry after Jupyter AI. The licence is mixed, so read `LICENSE` before deploying it.
 - [Jupyter AI Agents](https://github.com/datalayer/jupyter-ai-agents) 🟢 - Datalayer's agent panel, built on Pydantic AI. It starts the [Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server) as a server extension so the agent can read, write and run cells.
 - [RunCell](https://pypi.org/project/runcell/) 🟢 - Agent panel from the Kanaries team, using Claude, GPT or Gemini through MCP. PyPI classifies it BSD, the shipped `LICENSE` is a copyright line with no grant, and there is no public repository ([runcell.dev](https://www.runcell.dev)).
 - [Jupyter Claude Plugin](https://github.com/DCKartasoft/Jupyter-Claude_Plugin) 🟢 - Side panel built on the Claude Agent SDK that edits notebook code and markdown in place.
 - [AI Terminal](https://pypi.org/project/jupyter-aiterminal/) 🟢 - Workspace of mixed AI and shell cells saved as `.agentnb` files. The AI cells are answered by the Claude Agent SDK on the server. BSD-3-Clause, no public repository.
 - [LangStage](https://github.com/dkedar7/langstage-jupyter) 🟢 - Chat panel for a LangGraph DeepAgents agent, with a [walkthrough video](https://www.youtube.com/watch?v=vGA2vzMSQzo). Formerly published as `jupyter-deepagents` and `deepagent-lab`.
 - [JupyDeep](https://github.com/yezhenqing/jupydeep) 🟢 - Agent engine built on Pydantic AI and MCP, for multi-step work inside one notebook.
-- [Mynerva](https://github.com/NII-cloud-operation/jupyter-mynerva) 🟢 - Assistant from Japan's National Institute of Informatics that reads notebook structure and outputs before generating code, with a separate exploration mode.
 - [jupyterlab-llm-assistant](https://github.com/cyneck/jupyterlab-llm-assistant) 🟢 - Small chat panel against an OpenAI compatible endpoint, with cell context.
 - [jupyterlab-chat (Antony-X)](https://github.com/Antony-X/jupyterlab-chat) 🟢 - Floating chat panel that sends requests to OpenRouter. The package name is the same as the official `jupyterlab-chat`, so this one installs from source.
 - [Reasonix Chat](https://github.com/orangepyt123456/jupyter-reasonix) 🟢 - Chat panel that manages remote Linux servers over SSH, including running cells in a chosen conda environment.
-- [HDSP Agent](https://pypi.org/project/hdsp-jupyter-extension/) 🟢 - Thin client for a LangGraph DeepAgents server, with 161 releases on PyPI. MIT, no public repository.
+- [Codebuff Agent](https://pypi.org/project/codebuff-agent/) 🟢 - Thin client for a LangGraph DeepAgents server, published as `hdsp-jupyter-extension` until version 2.1.73. MIT, no public repository.
 - [Whybook](https://github.com/openteams-ai/whybook) 🟢 - Research prototype of a notebook view with no chat box: drag a column onto a cell, pick one of the questions it offers, and a template or an agent adds and runs the cells that answer it. Each cell shows the constants and defaults its result depends on, as chips you can question. [Try it on Binder](https://mybinder.org/v2/gh/openteams-ai/whybook/main?urlpath=lab/tree/pain_diary_demo.ipynb).
+- [Mynerva](https://github.com/NII-cloud-operation/jupyter-mynerva) 🟡 - Assistant from Japan's National Institute of Informatics that reads notebook structure and outputs before generating code, with a separate exploration mode.
 - [Kepler Copilot](https://pypi.org/project/keplercopilot/) 🟡 - Chat assistant panel. BSD-3-Clause, no public repository.
 - [Cellsistant](https://github.com/p4ulbr4dl3y/cellsistant) 🟡 - Chat agent that creates, runs, updates and deletes cells, and reads plots back as images.
 - [pynote](https://github.com/Verflow-AI/pynote) 🟡 - Claude-powered chat side panel for JupyterLab 4 and Notebook 7.
@@ -86,7 +86,6 @@ Generally these include a panel you type into and, can read and edit your notebo
 - [jupyterchatz](https://github.com/Zhoums396/jupyterchatz) ⚪ - Chat panel with MCP support.
 - [Pieces for JupyterLab](https://pypi.org/project/jupyter-pieces/) ⚪ - Snippet capture and workstream context, shared with the vendor's editor plugins. MIT, and the repository it points at is not public ([docs.pieces.app](https://docs.pieces.app/)).
 - [Jovyan AI](https://pypi.org/project/jovyanai-extension/) ⚪ - Completion and chat. BSD-3-Clause, no public repository.
-- [Sage Agent](https://pypi.org/project/sage-agent-internal/) ⚪ - Notebook assistant. BSD-3-Clause, no public repository ([sagebook.ai](https://sagebook.ai/)).
 - [escobar](https://pypi.org/project/escobar/) ⚪ - Chat extension with 142 releases and a placeholder repository URL that has never been filled in. BSD-3-Clause.
 
 <table>
@@ -106,7 +105,6 @@ Ghost text as you type, through the JupyterLab completer API.
 - [llm-complete](https://github.com/pb1729/llm-complete) 🟡 - Minimal inline completion provider, useful as a template.
 - [Pocket Coder](https://github.com/Param302/Pocket-Coder) 🟡 - A 1.2B model on Ollama giving offline completion in notebooks and VS Code. Fine-tuned from LiquidAI LFM 2.5.
 - [jupyter-copilot-completer](https://github.com/StFroese/jupyter-copilot-completer) ⚪ - Also runs the Copilot language server through the completer API.
-- [codeium.jupyter](https://github.com/Exafunction/codeium.jupyter) ⚪ - Codeium's own JupyterLab client. It has not been updated since Codeium became Windsurf.
 
 <table>
 <tr>
@@ -121,15 +119,15 @@ Help inside the cell you are editing: a button on the cell toolbar, a magic, or 
 - [🪐 Magic Wand](https://github.com/jupyter-ai-contrib/jupyterlab-magic-wand) ⚪ - In-cell assistant: describe what you want in the cell and accept or reject the diff. Its diff view and cell footer were split out into [jupyterlab-diff](https://github.com/jupyter-ai-contrib/jupyterlab-diff) and [jupyterlab-cell-input-footer](https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer). [Try it on Binder](https://mybinder.org/v2/gh/jupyter-ai-contrib/jupyterlab-magic-wand/main?urlpath=lab).
 - [ai-jup](https://github.com/AnswerDotAI/ai-jup) 🟡 - Prompt cells with ``$`variable` `` to inject kernel values and ``&`function` `` to expose Python functions as tools, inspired by fast.ai's Solveit. The author states it is an experiment and not maintained long term. GPL-3.0.
 - [nbinlineai](https://github.com/rahuldave/nbinlineai) 🟢 - Prompt cells in the style of ai-jup, with ``$`variable` `` for a live kernel value and ``&`function` `` to let the model call your Python function, and each answer saved as an editable Markdown cell. It works with an OpenAI or Anthropic API key or a ChatGPT sign-in, and is GPL-3.0.
+- [Plottery](https://github.com/brianhempel/plottery) 🟢 - Replaces the image from `plt.show()` with an editor where you drag shapes, change arguments with a live preview, or ask a model to change the plot, and each change is written back into the cell's code. It is a research prototype from a VL/HCC 2026 paper, installed as `plottery-ui` because `plottery` on PyPI is a different package. [Paper](https://plottery.org/assets/Plottery-%20A%20Code-Integrated%20GUI%20for%20Matplotlib%20Preprint%20with%20Appendix.pdf), [video](https://plottery.org/assets/Plottery%20Video%20Figure.mp4).
 - [jupyter-vibe-coding](https://github.com/haesleinhuepf/jupyter-vibe-coding) 🟡 - Explain, Fix and Generate buttons on the cell toolbar. Explain and Fix trigger on a traceback. The code is short, so read it first if you are writing your own.
 - [jupyterlite-ai-kernels](https://github.com/jtpio/jupyterlite-ai-kernels) 🟡 - Registers one kernel per configured provider, so a cell is a prompt and the reply streams back as output. [Try it in the browser](https://jtpio.github.io/jupyterlite-ai-kernels/lab/index.html).
 - [jupyter-ext-ai](https://github.com/novatechnolab/jupyter-ext-ai) 🟡 - Magic commands for chatting with OpenAI, Gemini and Claude from a cell.
-- [CoML](https://github.com/microsoft/CoML) ⚪ - Microsoft Research assistant with three modes, including one that suggests what to try next on a machine learning task. The readme has demo GIFs.
 
 <table>
 <tr>
 <td width="50%"><a href="https://github.com/jupyter-ai-contrib/jupyterlab-magic-wand"><img src="https://raw.githubusercontent.com/jupyter-ai-contrib/jupyterlab-magic-wand/main/docs/README.png" alt="describe the cell you want, accept the diff"></a><br><sub><b>Magic Wand</b>: describe the cell you want, accept the diff</sub></td>
-<td width="50%"><a href="https://github.com/microsoft/CoML"><img src="https://raw.githubusercontent.com/microsoft/CoML/main/assets/demo_coml.gif" alt="a magic that fills in the next step"></a><br><sub><b>CoML</b>: a magic that fills in the next step</sub></td>
+<td width="50%"><a href="https://github.com/haesleinhuepf/jupyter-vibe-coding"><img src="https://raw.githubusercontent.com/haesleinhuepf/jupyter-vibe-coding/main/docs/images/teaser.gif" alt="Explain and Fix buttons under a traceback"></a><br><sub><b>jupyter-vibe-coding</b>: Explain and Fix buttons under a traceback</sub></td>
 </tr>
 </table>
 
@@ -161,13 +159,15 @@ Built for one scientific field, one classroom or one vendor platform.
 - [jupytutor](https://github.com/team-jupytutor/jupytutor) 🟢 - Gives students LLM feedback based on their autograder results plus course context supplied by the instructor.
 - [GRAPHIT](https://github.com/Barbarossa2711/GRAPHIT) 🟢 - Tutoring system that models a lecture as a knowledge graph, with a tutor chat that answers only from the lecture slides, generated quizzes and a mastery score per concept that schedules reviews. Built for one German master's course, it runs with its own backend and JupyterHub through Docker Compose.
 - [FlowBook](https://github.com/stephenfreund/FlowBook) 🟢 - Marks cells whose inputs have changed, so re-running any cell gives the same answer as a top to bottom run. For each violation it reports, it can ask an LLM to diagnose the cause and offer one-click fixes. Without an API key the LLM part is off and the rest still works.
-- [CRANE-LLM](https://github.com/PELAB-LiU/crane_llm) 🟢 - Research extension that predicts and diagnoses notebook crashes at runtime, against OpenAI, Gemini or Ollama.
+- [CRANE-LLM](https://github.com/PELAB-LiU/crane_llm) 🟢 - Research extension that predicts and diagnoses notebook crashes with any OpenAI compatible model, Gemini and a local Ollama included. Built-in checks catch the crashes that are certain from the live kernel state without calling the model, and can stop such a cell before it runs.
 - [jupyter-geoagent](https://github.com/geojupyter/jupyter-geoagent) 🟢 - Map explorer for STAC catalogs with an MCP query interface over DuckDB, and reproducible exports of what the agent did.
 - [GeoCopilot](https://pypi.org/project/opengeolab-geocopilot/) 🟢 - Codex-powered notebook agent for geospatial work, on top of `jupyter-server-mcp`. MIT, no public repository.
+- [ClimateClaw for JupyterLite AI](https://github.com/freva-org/freva-web-nextgen/tree/main/packages/jupyterlite-climateclaw) 🟢 - Provider for JupyterLite AI that connects its chat to ClimateClaw, DKRZ's assistant for climate data on a Freva portal. Code that ClimateClaw runs on the portal is added to the open notebook with its output and figures, and signing in needs a Freva account.
+- [oceanumlab](https://github.com/oceanum-io/oceanumlab) 🟢 - Panel for the Oceanum.io ocean data platform, with Datamesh datasets you drag into a cell as loading code and an AI chat that writes cells into the open notebook and can run them and read the output back. The data and the chat need an Oceanum.io account.
 - [InstrMCP](https://github.com/caidish/instrMCP) 🟢 - MCP server suite that lets a model read QCodes instruments and measurement databases from a JupyterLab session in a physics lab.
 - [smarts.bio](https://github.com/smartsbio/smarts-bio-jupyterlab) 🟢 - Bioinformatics agent that runs GPU pipelines such as RFdiffusion and Boltz, searches NCBI, UniProt and PDB, and opens FASTA, BAM, VCF and PDB files natively. Commercial, with an MIT wrapper package ([smarts.bio](https://smarts.bio)).
-- [Lightcone Lab](https://pypi.org/project/jupyterlab-lightcone/) 🟢 - Research workbench that connects analyses, cited papers and materialised outputs, with optional Jupyter AI integration. BSD-3-Clause.
-- [SageMaker GenAI extension](https://pypi.org/project/sagemaker-gen-ai-jupyterlab-extension/) 🟢 - Amazon's GenAI and Q Developer extensions, published for the JupyterLab images inside SageMaker Studio.
+- [Lightcone Lab](https://github.com/LightconeResearch/jupyterlab-lightcone) 🟢 - Research workbench that connects analyses, cited papers and materialised outputs, with optional Jupyter AI integration.
+- [SageMaker GenAI extension](https://pypi.org/project/sagemaker-gen-ai-jupyterlab-extension/) 🟢 - Amazon Q Developer chat panel for SageMaker Studio, which SageMaker Distribution 4.4 and later still installs but switches off in favour of Jupyter AI with the Kiro agent. Apache-2.0, with a required dependency under the Amazon Software License, and no public repository.
 - [Xavier](https://github.com/CHI25-Xavier/Xavier) 🟡 - Research prototype from a CHI'25 paper on tabular data wrangling. It keeps the data in view while it suggests code. [Paper](https://doi.org/10.1145/3706598.3714239), [video](https://youtu.be/KTnCHSv1heI).
 - [Auto Dashboards](https://github.com/orbrx/auto-dashboards) 🟡 - Turns a notebook into a Streamlit, Dash or Solara dashboard and previews it beside the notebook.
 - [WWC Copilot](https://github.com/adamisom/jupyterlab-research-assistant-wwc-copilot) 🟡 - Academic research library with Semantic Scholar and OpenAlex import, PDF parsing and AI metadata extraction.
@@ -184,7 +184,7 @@ Built for one scientific field, one classroom or one vendor platform.
 
 ## Building blocks
 
-Plugins and libraries to build on. Few of them do anything on their own, and Jupyter AI v3 is assembled from them: installing `jupyter-ai` installs nine of the packages below, and its extras install six more. Every code repository in [jupyter-ai-contrib](https://github.com/jupyter-ai-contrib) is listed somewhere in this file, most of them here.
+Plugins and libraries to build on. Few of them do anything on their own, and Jupyter AI v3 is assembled from them: installing `jupyter-ai` installs nine of the packages below, and its extras install six more. Every AI package in [jupyter-ai-contrib](https://github.com/jupyter-ai-contrib) is listed somewhere in this file, most of them here.
 
 ### Jupyter AI plugins
 
@@ -198,7 +198,7 @@ Plugins and libraries to build on. Few of them do anything on their own, and Jup
 - [🪐 jupyter-ai-chat-commands](https://github.com/jupyter-ai-contrib/jupyter-ai-chat-commands) 🟡 - Slash commands in the chat input.
 - [🪐 jupyter-ai-tools](https://github.com/jupyter-ai-contrib/jupyter-ai-tools) 🟢 - Tool implementations for agents working on notebooks and files.
 - [🪐 jupyter-ai-magic-commands](https://github.com/jupyter-ai-contrib/jupyter-ai-magic-commands) 🟢 - The v3 replacement for `jupyter-ai-magics`, built on LiteLLM.
-- [🪐 jupyter-ai-demos](https://github.com/jupyter-ai-contrib/jupyter-ai-demos) 🟡 - Notebooks and custom personas demonstrating what Jupyter AI v3 can do. Read the personas before writing your own.
+- [🪐 jupyter-ai-demos](https://github.com/jupyter-ai-contrib/jupyter-ai-demos) ⚪ - Notebooks and custom personas demonstrating what Jupyter AI v3 can do. Read the personas before writing your own.
 
 ### Chat and notebook UI
 
@@ -222,12 +222,13 @@ Plugins and libraries to build on. Few of them do anything on their own, and Jup
 
 ### Live reload
 
-An agent writes to the notebook file while you have it open. By default JupyterLab keeps showing the old cells as reloading the document could lose the widget state. These extensions instead update the open notebook when the file changes.
+An agent writes to the notebook file while you have it open. By default JupyterLab keeps showing the old cells as reloading the document could lose the widget state. These extensions instead update the open document when the file changes.
 
 - [<img src="https://raw.githubusercontent.com/jupyter/design/main/logos/Favicon/favicon.svg" height="14" alt="Project Jupyter"> jupyter-collaboration](https://github.com/jupyterlab/jupyter-collaboration) 🟢 - Real time collaboration on Yjs. It is what lets two people, or a person and an agent, type into one notebook. Jupyter AI installs it under the `rtc` extra.
 - [🪐 jupyter-live-content](https://github.com/jupyter-ai-contrib/jupyter-live-content) 🟢 - Live file content updates, so the UI follows an agent editing on disk.
 - [🪐 jupyter-server-documents](https://github.com/jupyter-ai-contrib/jupyter-server-documents) 🟢 - Keeps document and kernel state on the server with pycrdt, for faster updates and lower memory. Jupyter AI installs it under the `rtc-jsd` extra.
 - [hot-notebook-patching](https://github.com/kolibril13/hot-notebook-patching) 🟢 - Patches only the cells that changed, so the kernel keeps running and widgets keep their state. Written for notebooks edited by Claude Code.
+- [Advanced Markdown Viewer](https://github.com/stellarshenson/jupyterlab_advanced_markdown_viewer_extension) 🟢 - Keeps the Markdown preview in step with the file while an agent writes it, with added text typed in on green and removed text struck through on red. Marks and notes are stored in the file as HTML comments, and a bundled agent skill lets the agent read and answer them.
 - [jupyterlab-claude-code-refresh](https://github.com/wenatuhs/jupyterlab-claude-code-refresh) ⚪ - Reloads the open notebook from disk when Claude Code edits the file.
 
 ### MCP
@@ -256,6 +257,9 @@ An MCP server lets an agent that runs outside JupyterLab read and edit a noteboo
 These are not JupyterLab extensions. They are command line tools, magics and models that a notebook user runs next to Jupyter.
 
 - [🪐 nb-cli](https://github.com/jupyter-ai-contrib/nb-cli) 🟢 - Command line for notebooks with an AI-optimised markdown format, so an agent can work without a browser.
+- [jupyter-jcli](https://github.com/TTTPOB/jcli) 🟢 - CLI that lets Claude Code, Codex or OpenCode run cells in a kernel on your Jupyter server and saves the outputs into the notebook. The agent edits a paired `.py` file in py:percent format, while hooks installed by `j-cli setup` stop direct `.ipynb` edits and keep the two files in sync.
+- [nblean](https://github.com/kaanrkaraman/nblean) 🟢 - CLI and agent skill that show a coding agent a notebook as one line per cell, with long outputs clipped and plots saved as files, so the agent reads less. Cells run in a kernel that stays alive between commands, and their outputs are saved into the `.ipynb`.
+- [notebook-to-pipeline](https://github.com/Abelo9996/notebook-to-pipeline) 🟢 - CLI, MCP server and agent skill that help a coding agent turn a notebook into a Python package with a test. It runs the notebook in a fresh kernel, records its variables and figures, and checks that the package gives the same values and the same figures.
 - [jupyterlab-cli](https://github.com/wenmin-wu/jupyterlab-cli) 🟡 - CLI where every command is one HTTP call to the server, plus clipboard and context helpers in the UI.
 - [agent-client-kernel](https://github.com/wiki3-ai/agent-client-kernel) 🟡 - A kernel that connects to an agent over the Agent Client Protocol, so the agent answers your cells wherever a kernel can run.
 - [genai](https://github.com/rgbkrk/genai) ⚪ - IPython magics that read your error and your dataframes before suggesting a fix. Written at Noteable, a notebook company that later shut down.
